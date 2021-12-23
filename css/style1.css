@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loginBox{
+    border-radius: 1rem;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    margin:center;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    opacity: 7;
+    position: relative;
+    top: 13rem;
+    min-height: 40vh;
+    min-width: 20vw;
+    box-shadow: 0 1rem 1rem -0.7rem #023d7c;
+}
+.loginBox .title{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #007bff;
+}
+.login-section input{
+    display: block;
+    margin: 0.4rem 0;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #007bff;
+    outline:none;
+    color: #007bff;
+}
+.login-section input:active{
+    border: none;
+    outline:none;
+}
+.login-section input::placeholder{
+    color: #007bff;
+    text-align: center;
+}
+.loginBox header{
+    height: fit-content;
+    width: fit-content;
+    background-color: #fff;
+    margin: 0.4rem 0;
+}
+.register{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    background: #007bff;
+    border: 1px solid #007bff;
+    line-height: 10px;
+    opacity: 78;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+    text-align: center;
+    margin: 0.4rem 3rem;
+}
+.register:hover{
+    background-color: #fff;
+    color: #007bff;
+}
