@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
+
 <body>
     <div class="start_btn"><button>Start Quiz</button></div>
     <div class="info_box">
@@ -24,6 +26,10 @@
         </div>
     </div>
     <div class="quiz_box">
+        <div class="overall-timer">
+            <div class="overall_time_left_txt">Overall Time Left</div>
+            <div class="overall_time_left_sec">75</div>
+        </div>
         <header>
             <div class="title">Quiz App</div>
             <div class="timer">
@@ -53,11 +59,13 @@
         </div>
         <div class="buttons">
             <button class="restart">Replay</button>
-            <button class="quit">Exit</button>
+            <a href="login.html" style="text-decoration:none"><button class="quit">Exit</button></a>
         </div>
     </div>
     <script src="js/questions.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
+
 </html>
